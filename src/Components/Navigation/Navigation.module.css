@@ -5,6 +5,9 @@
     align-items: center;
     padding: 0 8px;
     height: 72px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
   }
   
 
@@ -13,10 +16,22 @@
     list-style: none;
     gap: 24px;
     /* font-size: large; */
-    font-weight: 600;
+    font-weight: 600;    
   }
+
+.navigation ul a:hover{
+  position: relative;
+  top: -2px;
+  left: 2px;
+  text-shadow: 4px 2px 15px rgb(58, 119, 185);
+  transition: 1s ease-in-out;
+  transform: scale(1.1);
+}
+
 
 .navigation ul a{
     text-decoration: none;
 }
+
+
   

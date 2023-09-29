@@ -1,6 +1,6 @@
 .primary_btn{
     background-color: black;
-    padding: 18px 8px;
+    padding: 14px 5px;
     color: white;
     min-width: 220px;
     display: flex;
@@ -9,4 +9,20 @@
     border-radius: 5px;
     gap: 8px;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.secondary_btn{
+    background-color: white;
+    padding: 14px 5px;
+    color: black;
+    /* min-width: 220px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
