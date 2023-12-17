@@ -4,6 +4,8 @@
 }
 
 .contact_section h1{
+    /* color: black; */
+    margin-top: 60px;
     font-size: 44px;
     font-weight: 800;
 }

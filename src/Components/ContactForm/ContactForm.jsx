@@ -2,7 +2,7 @@ import { useState } from "react"
 import Button from "../Button/Button"
 import styles from "./ContactForm.module.css"
 import {BiSolidMessage} from "react-icons/bi"
-import {IoCall} from "react-icons/io5"
+import {IoCall} from "react-icons/io5"  
 import {TbMailFilled} from "react-icons/tb"
 
 const ContactForm = () => {
@@ -40,7 +40,7 @@ const ContactForm = () => {
           <Button // onClick={viaCallFeature} 
           text="VIA CALL" icon={<IoCall fontSize="24px"/>}/>
           </div>
-          
+                      
           <Button
            isSecondary={true}
            text="VIA EMAIL" icon={<TbMailFilled fontSize="24px"/>}/>
@@ -66,7 +66,7 @@ const ContactForm = () => {
               justifyContent: "end"
             }}>
             <Button
-           text="SUBMIT"/>
+            text="SUBMIT"/>
             </div>
 
             <div>
